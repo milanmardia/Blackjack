@@ -1,6 +1,6 @@
 def create_deck():
     num_words = ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King']
-    
+
     suits = ["Hearts", "Spades", "Clubs", "Diamonds"]
 
     deck_of_cards = []
@@ -11,6 +11,3 @@ def create_deck():
     
     return deck_of_cards
         
-
-
-print(create_deck())
